@@ -50,12 +50,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Socket mSocket;
     {
         try {
-            mSocket = IO.socket("http://192.168.43.15:8088");
+            mSocket = IO.socket("http://192.168.1.13:8088");
         } catch (URISyntaxException e) {}
     }
     Context ctx;
 
-    String HttpUrl = "http://192.168.43.15:8080/api/history";
+    String HttpUrl = "http://192.168.1.13:8080/api/history";
     okhttp3.Response response;
 
     private String[] channels = {"bein","canal","mtv","el hiwar","tunisie1",

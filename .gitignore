@@ -7,3 +7,9 @@
 /build
 /captures
 .externalNativeBuild
+
+build\.gradle
+
+\.idea/misc\.xml
+
+\.idea/caches/build_file_checksums\.ser
