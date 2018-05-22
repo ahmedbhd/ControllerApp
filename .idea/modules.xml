@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ControllerApp.iml" filepath="$PROJECT_DIR$/ControllerApp.iml" />
+      <module fileurl="file://C:\Users\asus\Documents\Git\ControllerApp\ControllerApp.iml" filepath="C:\Users\asus\Documents\Git\ControllerApp\ControllerApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\asus\Documents\Git\ControllerApp\app\app.iml" filepath="C:\Users\asus\Documents\Git\ControllerApp\app\app.iml" />
     </modules>
   </component>
 </project>

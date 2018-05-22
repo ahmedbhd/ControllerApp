@@ -55,7 +55,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
     Context ctx;
 
-    String HttpUrl = "http://192.168.1.13:8080/api/history";
+    String HttpUrl = "http://192.168.1.101:8080/api/history";
     okhttp3.Response response;
 
     private String[] channels = {"bein","canal","mtv","el hiwar","tunisie1",
