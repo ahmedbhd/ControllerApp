@@ -50,7 +50,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Socket mSocket;
     {
         try {
-            mSocket = IO.socket("http://192.168.1.13:8088");
+            mSocket = IO.socket("http://192.168.1.5:8088");
         } catch (URISyntaxException e) {}
     }
     Context ctx;
@@ -237,8 +237,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         socket.connect();*/
         JSONObject request=new JSONObject();
         try {
+            double x = 10;
             request.put("recepteur", Integer.valueOf(idtext.getText().toString()));
             request.put("nom_chaine", ch.getNom_chaine());
+            request.put("duree", x);
         } catch (JSONException e) {
             e.printStackTrace();
         }
